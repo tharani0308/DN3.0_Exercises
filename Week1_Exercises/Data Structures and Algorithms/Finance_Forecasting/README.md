@@ -18,7 +18,8 @@ You are developing a financial forecasting tool that predicts future values base
 2. Analysis:
 
     --> Time Complexity Comparison
-        o Moving Average:
+   
+         o Moving Average:
 
            ---> Best Case: O(1) per update
            ---> Average Case: O(n) for initial computation, O(1) per update
