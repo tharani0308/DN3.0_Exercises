@@ -6,16 +6,16 @@ Scenario:
 You are working on the search functionality of an e-commerce platform. The search needs to be optimized for fast performance.
 
 ------------------------------------------------------------------------------------------------------------------------------
-3. Implementation
+1. Implementation
   Linear and Binary Search Algorithms
-Linear Search:
-The linear search algorithm scans each element in the array until it finds the target element or reaches the end of the array.
+    Linear Search:
+      The linear search algorithm scans each element in the array until it finds the target element or reaches the end of the array.
 
-Binary Search:
-The binary search algorithm works on a sorted array by repeatedly dividing the search interval in half. If the target value is less than the value in the middle of the interval, it searches the lower half; otherwise, it searches the upper half.
+   Binary Search:
+      The binary search algorithm works on a sorted array by repeatedly dividing the search interval in half. If the target value is less than the value in the middle of the interval, it searches the lower half; otherwise, it searches the upper half.
 
 ------------------------------------------------------------------------------------------------------------------------------
-4. Analysis:
+2. Analysis:
 
 
 1. Time Complexity Comparison
