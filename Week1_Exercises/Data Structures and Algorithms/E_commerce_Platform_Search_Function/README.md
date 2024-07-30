@@ -18,7 +18,7 @@ You are working on the search functionality of an e-commerce platform. The searc
 2. Analysis:
 
 
-  1. Time Complexity Comparison
+  --> Time Complexity Comparison 
       o Linear Search:
   
           ---> Best Case: O(1)
@@ -31,7 +31,7 @@ You are working on the search functionality of an e-commerce platform. The searc
           ---> Average Case: O(log n)
           ---> Worst Case: O(log n)
   
-  2.  Algorithm Suitability
+  -->  Algorithm Suitability
   
       o Linear Search: Suitable for small or unsorted datasets. Simple to implement but less efficient for large datasets as it checks each element sequentially.
   
