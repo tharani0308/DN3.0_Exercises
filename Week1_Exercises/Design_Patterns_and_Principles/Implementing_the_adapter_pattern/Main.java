@@ -1,16 +1,10 @@
-import adapter.PaymentProcessor;
-import adapter.PayPalAdapter;
-import adapter.StripeAdapter;
-import adapter.GatewayAAdapter;
-
 public class Main {
     public static void main(String[] args) {
-        PaymentProcessor payPal = new PayPalAdapter();
-        PaymentProcessor stripe = new StripeAdapter();
-        PaymentProcessor gatewayA = new GatewayAAdapter();
+        PaymentProcessor gatewayA = new PaymentGatewayAAdapter(new PaymentGatewayA());
+        PaymentProcessor gatewayB = new PaymentGatewayBAdapter(new PaymentGatewayB());
 
-        payPal.processPayment(100.0);
-        stripe.processPayment(200.0);
-        gatewayA.processPayment(300.0);
+        // Process payments using different gateways through the adapters
+        gatewayA.processPayment(100.0);
+        gatewayB.processPayment(200.0);
     }
 }
