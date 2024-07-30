@@ -18,24 +18,24 @@ You are working on the search functionality of an e-commerce platform. The searc
 2. Analysis:
 
 
-1. Time Complexity Comparison
-    o Linear Search:
-
-        ---> Best Case: O(1)
-        ---> Average Case: O(n)
-        ---> Worst Case: O(n)
-
-    o Binary Search:
-
-        ---> Best Case: O(1)
-        ---> Average Case: O(log n)
-        ---> Worst Case: O(log n)
-
-2.  Algorithm Suitability
-
-    o Linear Search: Suitable for small or unsorted datasets. Simple to implement but less efficient for large datasets as it checks each element sequentially.
-
-    o Binary Search: More efficient for large, sorted datasets due to its logarithmic complexity. Requires the array to be sorted, which adds an initial sorting step but significantly speeds up search operations.
+  1. Time Complexity Comparison
+      o Linear Search:
+  
+          ---> Best Case: O(1)
+          ---> Average Case: O(n)
+          ---> Worst Case: O(n)
+  
+      o Binary Search:
+  
+          ---> Best Case: O(1)
+          ---> Average Case: O(log n)
+          ---> Worst Case: O(log n)
+  
+  2.  Algorithm Suitability
+  
+      o Linear Search: Suitable for small or unsorted datasets. Simple to implement but less efficient for large datasets as it checks each element sequentially.
+  
+      o Binary Search: More efficient for large, sorted datasets due to its logarithmic complexity. Requires the array to be sorted, which adds an initial sorting step but significantly speeds up search operations.
 
 ------------------------------------------------------------------------------------------------------------------------------
 
