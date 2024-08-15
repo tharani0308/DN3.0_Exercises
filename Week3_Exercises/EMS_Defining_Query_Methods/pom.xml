@@ -1,0 +1,25 @@
+employee-management-system
+│
+├── src
+│   ├── main
+│   │   ├── java
+│   │   │   └── com
+│   │   │       └── example
+│   │   │           └── employeemanagement
+│   │   │               ├── EmployeeManagementApplication.java
+│   │   │               ├── model
+│   │   │               │   └── Employee.java
+│   │   │               ├── repository
+│   │   │               │   └── EmployeeRepository.java
+│   │   │               └── service
+│   │   │                   └── EmployeeService.java
+│   │   └── resources
+│   │       ├── application.properties
+│   │       └── data.sql
+│   └── test
+│       └── java
+│           └── com
+│               └── example
+│                   └── employeemanagement
+│                       └── EmployeeRepositoryTest.java
+└── pom.xml
