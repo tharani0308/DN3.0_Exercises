@@ -1,24 +1,12 @@
-package com.example.employeemanagementsystem.model;
+package com.example.employeemanagementsystem.repository;
 
-import lombok.Data;
-import javax.persistence.*;
+import com.example.employeemanagementsystem.model.Department;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
 
-@Data
-@Entity
-@Table(name = "employees")
-public class Employee {
+@Repository
+public interface DepartmentRepository extends JpaRepository<Department, Long> {
 
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
-
-    @Column(nullable = false)
-    private String name;
-
-    @Column(nullable = false, unique = true)
-    private String email;
-
-    @ManyToOne
-    @JoinColumn(name = "department_id", nullable = false)
-    private Department department;
+    // Find department by name
+    Department findByName(String name);
 }
